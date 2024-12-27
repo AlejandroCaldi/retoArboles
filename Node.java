@@ -51,7 +51,7 @@ public class Node {
     
         if (this.left!=null) {
 
-            recolectarValores(hojas);
+            this.left.recolectarValores(hojas);
 
         } 
 
@@ -59,7 +59,7 @@ public class Node {
 
         if (this.right!=null) {
 
-            recolectarValores(hojas);
+            this.right.recolectarValores(hojas);
 
         } 
 

@@ -1,3 +1,5 @@
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,5 +61,6 @@ public class Main {
 
         raiz.recolectarValores(valores);
 
+        valores.forEach(x -> System.out.print(x + ", "));
     }
 }
